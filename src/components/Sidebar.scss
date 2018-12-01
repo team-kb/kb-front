@@ -1,0 +1,25 @@
+@import '../_colors.scss';
+
+.sidebar {
+  width: 20vw;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      border: 1px solid black;
+      padding: 5px 10px;
+      background-color: white;
+
+      .active {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .sidebar-header {
+    background-color: $primary-color;
+  }
+}

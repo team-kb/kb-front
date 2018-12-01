@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './calendario.scss';
+import './Calendario.scss';
 
 
 class Calendario extends React.Component {
